@@ -44,15 +44,15 @@ text-decoration: none;
 
 }
 
-.header_container {
+/* .header_container {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .header_title {
     display: flex;
-width: 170px;
+/* width: 170px; */
 height: 55px;
 flex-direction: column;
 justify-content: center;
