@@ -52,6 +52,7 @@ text-decoration: none;
 
 .header_title {
     display: flex;
+
 /* width: 170px; */
 height: 55px;
 flex-direction: column;
@@ -83,7 +84,7 @@ display: flex;
     height: 70px;
     flex-shrink: 0;
     text-align: center;
-    padding-left: 138px;
+    padding-left: 175px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 292px;
@@ -244,9 +245,7 @@ background: rgba(255, 255, 255, 0.80);
     padding-left: 1405px;
 }
 
-.btn {
 
-}
 
 .btn_svg {
     width: 245px;
@@ -259,7 +258,33 @@ flex-shrink: 0;
 }
 
 
-.text_btn {
+.bera {
+    display: flex;
+/* width: 149.645px; */
+/* height: 34px; */
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-top: 460px;
+margin-left: 942px;
+padding-top: 17px;
+padding-bottom: 17px;
+padding-left: 46px;
+padding-right: 46px;
+background-color: #202846;
+border: none;
+border-radius: 77px;
+}
+
+/* .text_btn {
     position: absolute;
     display: flex;
 width: 149.645px;
@@ -280,7 +305,7 @@ padding-top: 17px;
 padding-bottom: 17px;
 padding-left: 25px;
 padding-right: 70px;
-}
+} */
 
 .btn_svgg {
 
@@ -298,7 +323,7 @@ padding-left: 1104px;
 .img3_container {
     text-align: center;
     justify-content: center;
-    background: rgba(193, 193, 195, 0.90);
+    /* background: rgba(193, 193, 195, 0.90); */
     display: flex;
     margin-top: 49px;
     padding-top: 31px;
