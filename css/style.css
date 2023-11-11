@@ -8,6 +8,10 @@ h6,
 p {
 margin: 0;}
 
+a {
+    text-decoration: none;
+}
+
 img{
 display: block;
 max-width: 100%;
@@ -51,6 +55,7 @@ text-decoration: none;
 } */
 
 .header_title {
+    cursor: pointer;
     display: flex;
 
 /* width: 170px; */

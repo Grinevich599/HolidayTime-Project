@@ -22,10 +22,14 @@
       <!-- class="container" -->
       <div class="header_text">
 
-        <img src="./img/logo.png" alt="logo" class="logo">
-        <div class="header_container">
-
-          <p class="header_title">ГОЛОВНА</p>
+        <a href="./index.html">
+          <img src="./img/logo.png" alt="logo" class="logo">
+          </a>
+          <div class="header_container">
+  
+            <a href="./index.html">
+            <p class="header_title">ГОЛОВНА</p>
+            </a>
           <p class="header_title">ПРО НАС</p>
           <p class="header_title">ЗАБРОНЮВАТИ</p>
           <p class="header_title">КОНТАКТИ</p>
@@ -64,7 +68,7 @@
 
 
 
-      <button type="button" class="bera" onclick="redirectToAnotherPage()">Переглянути</button>
+      <button type="button" class="bera" onclick="redirectToSecondPage()">Переглянути</button>
 
 
 
@@ -142,7 +146,7 @@
 </footer>
 
 <script>
-  function redirectToAnotherPage() {
+  function redirectToSecondPage() {
       // Перенаправление на другой файл HTML
       window.location.href = 'asortiment.html';
   }
