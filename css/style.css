@@ -48,6 +48,21 @@ input {
 font-family: Sans;
 }
 
+    body {
+      height: 200vh; /* Для тестирования скролла */
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #scrollButton {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      cursor: pointer;
+    }
+
 .list {
 list-style-type: none;
 margin: 0;
@@ -81,13 +96,14 @@ text-decoration: none;
 .header_title_home {
     cursor: pointer;
     display: flex;
-
 /* width: 170px; */
 height: 55px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
     color: #FFF;
+    
+    text-align: center;
 
 font-family: PT Sans;
 font-size: 24px;
@@ -96,18 +112,20 @@ font-weight: 700;
 line-height: normal;
 padding-top: 18px;
 padding-bottom: 17px;
+    text-align: center;
 }
 
 .header_title_aboutus {
     cursor: pointer;
     display: flex;
-
 /* width: 170px; */
 height: 55px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
     color: #FFF;
+    
+    text-align: center;
 
 font-family: PT Sans;
 font-size: 24px;
@@ -116,18 +134,20 @@ font-weight: 700;
 line-height: normal;
 padding-top: 18px;
 padding-bottom: 17px;
+    text-align: center;
 }
 
 .header_title_reserve{
     cursor: pointer;
     display: flex;
-
 /* width: 170px; */
 height: 55px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
     color: #FFF;
+    
+    text-align: center;
 
 font-family: PT Sans;
 font-size: 24px;
@@ -136,18 +156,20 @@ font-weight: 700;
 line-height: normal;
 padding-top: 18px;
 padding-bottom: 17px;
+    text-align: center;
 }
 
 .header_title_contact {
     cursor: pointer;
     display: flex;
-
 /* width: 170px; */
 height: 55px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
     color: #FFF;
+    
+    text-align: center;
 
 font-family: PT Sans;
 font-size: 24px;
@@ -156,6 +178,29 @@ font-weight: 700;
 line-height: normal;
 padding-top: 18px;
 padding-bottom: 17px;
+    text-align: center;
+}
+
+.header_title_cabinet {
+    cursor: pointer;
+    display: flex;
+width: 170px;
+height: 55px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+    color: #FFF;
+    
+    text-align: center;
+
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 18px;
+padding-bottom: 17px;
+    text-align: center;
 }
 
 .header_container {
@@ -219,25 +264,7 @@ background-color: #202846;
 border: none;
 }
 
-.header_title_cabinet {
-    cursor: pointer;
-    display: flex;
-width: 170px;
-height: 55px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-    color: #FFF;
 
-font-family: PT Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-top: 18px;
-padding-bottom: 17px;
-    text-align: center;
-}
 
 
 
