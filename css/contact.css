@@ -1,0 +1,297 @@
+/* General css */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* padding: 0;  */
+    border: none; 
+    outline: none; 
+    background: transparent; 
+}
+/* 
+select option:hover {
+    background-color: #000000; 
+    color: #FFF; 
+  }
+   */
+
+img{
+display: block;
+max-width: 100%;
+}
+button {
+font-family: Sans;
+color: currentColor;
+}
+input {
+font-family: Sans;
+}
+
+    body {
+      height: 200vh; /* Для тестирования скролла */
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #scrollButton {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      cursor: pointer;
+    }
+
+.list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.link {
+text-decoration: none;
+}
+
+.container {
+    max-width: 1485px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* HEADER */
+
+.header {
+    background: #202846;
+
+}
+
+/* .header_container {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.header_title_home {
+    cursor: pointer;
+    display: flex;
+/* width: 170px; */
+height: 55px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+    color: #FFF;
+    
+    text-align: center;
+
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 18px;
+padding-bottom: 17px;
+    text-align: center;
+}
+
+.header_title_aboutus {
+    cursor: pointer;
+    display: flex;
+/* width: 170px; */
+height: 55px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+    color: #FFF;
+    
+    text-align: center;
+
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 18px;
+padding-bottom: 17px;
+    text-align: center;
+}
+
+.header_title_reserve{
+    cursor: pointer;
+    display: flex;
+/* width: 170px; */
+height: 55px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+    color: #FFF;
+    
+    text-align: center;
+
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 18px;
+padding-bottom: 17px;
+    text-align: center;
+}
+
+.header_title_contact {
+    cursor: pointer;
+    display: flex;
+/* width: 170px; */
+height: 55px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+    color: #FFF;
+    
+    text-align: center;
+
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 18px;
+padding-bottom: 17px;
+    text-align: center;
+}
+
+.header_title_cabinet {
+    cursor: pointer;
+    display: flex;
+width: 170px;
+height: 55px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+    color: #FFF;
+    
+    text-align: center;
+
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 18px;
+padding-bottom: 17px;
+    text-align: center;
+}
+
+.header_container {
+    display: flex;
+    gap: 54px;
+}
+
+.header_text {
+display: flex;
+
+}
+
+.logo {
+    width: 178.451px;
+    height: 70px;
+    flex-shrink: 0;
+    text-align: center;
+
+
+}
+
+.header-logo-img {
+    margin-left: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 292px;
+}
+
+.UA {
+    width: 75px;
+height: 75px;
+flex-shrink: 0;
+}
+
+.header_title_leng {
+    background-color: #202846;
+    color: #FFF;
+text-align: center;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    /* color: #FFF;
+text-align: center;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 29px;
+padding-bottom: 25px;
+padding-left: 8px; */
+}
+
+.header_title_ua {
+    color: #FFF;
+text-align: center;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: #202846;
+border: none;
+}
+
+
+/****************** FOOTER ******************/
+/****************** FOOTER ******************/
+/****************** FOOTER ******************/
+
+.footer {
+    background: #202846;
+}
+
+.footer_text {
+    color: #EEECF1;
+    width: 709px;
+    height: 47px;
+    font-family: PT Sans;
+    font-size: 36px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 21px;
+    padding-bottom: 22px;
+
+}
+
+
+

@@ -20,7 +20,7 @@ const langArr = {
     "reserve" : {
         "ua": "ЗАБРОНЮВАТИ",
         "ru": "ЗАБРОНИРОВАТЬ",
-        "en": "BOOK",
+        "en": "RESERVE",
     },
 
     "contact" : {
